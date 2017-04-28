@@ -7,6 +7,7 @@
         <link rel='stylesheet' href="{{asset('css/bootstrap.min.css')}}">
         <script src="{{asset('jquery-3.2.1.min.js')}}"></script>
         <script src="{{asset('jquery.js')}}"></script>
+        
     </head>
     <body class="conteiner-fluid">
         <div class="conteiner-fluid">
@@ -31,13 +32,27 @@
         </section>
             </div> 
             <div class="col-md-2"></div>
-        </div>    
-    <foother>
+        </div> 
+        <aside>
+         
+        </aside>
+    <footer>
         
        
-    </foother>
-    
-    <button id="bgChanger" type="button" class="btn btn-danger" onclick="changeBg('{{asset("tlo.jpeg")}}','{{asset("351379.jpg")}}')">change background</button>
+    </footer>
+    <div class="bgChanger">
+    <button id="bgChanger" type="button" class="btn btn-danger" onclick="changeBg('{{asset("tlo.jpg")}}','{{asset("351379.jpg")}}')">dzień/noc</button>
+    </div>
+    <br/>
+    <br/>    
+    <br/>
+    <div class="link"
+    <text>Potrzebujesz prawdziwego artykułu?</text>
+    <a target="_blank" href="https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna">Kliknij tutaj</a>
+    </div>
+    <div class="Flash">
+<marquee behavior="alternate" bgcolor="66CCFF">KONKURS!! Do wygrania lot w jedną stronę do Meksyku! </marquee>>
+    </div>
     </body>
    
 </html>

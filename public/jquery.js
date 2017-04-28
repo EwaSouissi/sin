@@ -13,12 +13,13 @@ function changeBg (url, orginUrl) {
     }
 }
      function validInput () {
-         var input = $('#name').val();
-         if (input.lenght > 0 ) {
-             $('button[type=submit]').removeAttr('disabled');
-         } else {
-             $('button[type=submit]').attr('disabled', 'disabled');
-         }
-     }
+    var input = $('#name').val();
+    if (input.length > 0) {
+        $('button[type=submit]').removeAttr('disabled');
+    } else {
+         $('button[type=submit]').attr('disabled', 'disabled');
+    }
+}
+
    
     

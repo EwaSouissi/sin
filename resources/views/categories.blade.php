@@ -12,9 +12,9 @@
     <input type="text" id="name" name="name" class="form-control" placeholder="Wpisz nazwę kategorii..." onkeyup="validInput()">
     <input type="hidden" name="token" value="{{csrf_token()}}">
     <br/>
-    <button type="submit" disabled="true">Add category</button>
-    <button type="reset">Cancel</button>
     </div>
+    <button type="submit" disabled>Add category</button>
+    <button type="reset">Cancel</button>
      
 </form>
 @stop
