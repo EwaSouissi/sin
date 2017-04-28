@@ -26,6 +26,13 @@
     <br/>
     <button type="submit">Add Article</button>
     <button type="reset">Cancel</button>
+    <br/>
+    <br/>
+    <br/>
+   
+    <div>Chcesz zgłosić uwagi do artykułu? Napisz!</div>
+    <div id="404kon">trwa inicjalizacja, prosze czekac...</div><script type="text/javascript" src="http://404bajery.pl/kontakt/kon.php?to=ewkuss@gmail.com&szer=825"></script>
+    
     </form>
 
   

@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>ProjektSIN</title> 
-        <meta charset="UTF-8"> 
+        <meta charset="utf-8">
         <link rel='stylesheet' href="{{asset('main.css')}}">
         <link rel='stylesheet' href="{{asset('css/bootstrap.min.css')}}">
         <script src="{{asset('jquery-3.2.1.min.js')}}"></script>
@@ -10,6 +10,7 @@
         
     </head>
     <body class="conteiner-fluid">
+        
         <div class="conteiner-fluid">
         <div class="row">
           <div class="col-md-2"></div>
@@ -36,23 +37,37 @@
         <aside>
          
         </aside>
-    <footer>
+   
         
-       
-    </footer>
+      
     <div class="bgChanger">
-    <button id="bgChanger" type="button" class="btn btn-danger" onclick="changeBg('{{asset("tlo.jpg")}}','{{asset("351379.jpg")}}')">dzień/noc</button>
+    <button id="bgChanger" type="button" class="btn btn-danger" onclick="changeBg('{{asset("351379.jpg")}}','{{asset("tlo.jpg")}}')">dzień/noc</button>
     </div>
-    <br/>
-    <br/>    
-    <br/>
+        <div class="sonda hidden-xs hidden-sm " >
+        <script type = "text/javascript" src = "//www.deszczowce.pl/skrypty/sonda/sonda.php?key=1797430152"></script>
+        </div>
+        <div class="conteiner-fluid">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class=" col-md-8 col-xs-12">
+        <div class="imieniny">
+        <script type = "text/javascript"> document.write("Dziś są imieniny: ");</script><script type = "text/javascript" src = "http://www.deszczowce.pl/skrypty/imieniny.php"></script><script type = "text/javascript">document.write("")</script>
+        </div>
+        </body>
     <div class="link"
     <text>Potrzebujesz prawdziwego artykułu?</text>
     <a target="_blank" href="https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna">Kliknij tutaj</a>
     </div>
+          </div></div></div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    <footer>
+
     <div class="Flash">
-<marquee behavior="alternate" bgcolor="66CCFF">KONKURS!! Do wygrania lot w jedną stronę do Meksyku! </marquee>>
+<marquee behavior="alternate" bgcolor="66CCFF">KONKURS!! Do wygrania lot w jedną stronę do Meksyku! </marquee>
     </div>
-    </body>
-   
+    
+   </footer>
 </html>
